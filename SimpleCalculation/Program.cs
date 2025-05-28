@@ -23,7 +23,7 @@ void doCalculate(double a, double b, string op)
     }
 }
 Console.WriteLine("SIMPLE CALCULATION GO BRUH BRUH");
-Console.WriteLine("Ara Ara~, enter numbers for mommy");
+Console.WriteLine("Enter numbers: ");
 Console.WriteLine("Enter a: ");
 double a = Double.Parse(Console.ReadLine());
 Console.WriteLine("Enter b: ");
