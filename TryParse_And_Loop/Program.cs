@@ -6,7 +6,7 @@
 int n = -1; //giả sử nhập sai
 while (n < 0 ) //bắt nhập lại cho tới khi nào n >=0
 {
-    Console.Write("Enter your mom age (>= 0): ");
+    Console.Write("Enter your age (>= 0): ");
     string input = Console.ReadLine();
     if (int.TryParse(input, out n) == true)
     { //khi vào đây thì n là số, nhưng có thể < 0
@@ -16,13 +16,13 @@ while (n < 0 ) //bắt nhập lại cho tới khi nào n >=0
         }
         else
         {
-            Console.WriteLine("Your mom is gay");
+            Console.WriteLine("You are young");
         }
 
     }
     else
     {
-        Console.WriteLine("Your father is sus");
+        Console.WriteLine("You are not young");
     }
 }
 int gt = 1;

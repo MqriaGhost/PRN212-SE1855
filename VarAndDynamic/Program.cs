@@ -4,7 +4,7 @@
 //Console.WriteLine(x);
 
 dynamic y = 0;
-y = "Memaybeo";
+y = "hehehe";
 Console.WriteLine(y);
 y = 150;
 Console.WriteLine(y);
