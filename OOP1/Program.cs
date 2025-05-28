@@ -11,8 +11,8 @@ c1.PrintInfor();
 Employee em = new Employee();
 em.Id = 1;
 em.IdCard = "00123";
-em.Name = "ConMeMay";
-em.Email = "goiconmemay@gmail.com";
+em.Name = "Mon";
+em.Email = "mon@gmail.com";
 em.Phone = "123456";
 // goi ham xuat thong tin
 em.PrintInfor();
