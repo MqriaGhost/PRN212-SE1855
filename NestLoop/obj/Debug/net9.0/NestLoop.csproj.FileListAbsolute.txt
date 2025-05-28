@@ -1,0 +1,14 @@
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\NestLoop\bin\Debug\net9.0\NestLoop.exe
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\NestLoop\bin\Debug\net9.0\NestLoop.deps.json
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\NestLoop\bin\Debug\net9.0\NestLoop.runtimeconfig.json
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\NestLoop\bin\Debug\net9.0\NestLoop.dll
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\NestLoop\bin\Debug\net9.0\NestLoop.pdb
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\NestLoop\obj\Debug\net9.0\NestLoop.GeneratedMSBuildEditorConfig.editorconfig
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\NestLoop\obj\Debug\net9.0\NestLoop.AssemblyInfoInputs.cache
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\NestLoop\obj\Debug\net9.0\NestLoop.AssemblyInfo.cs
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\NestLoop\obj\Debug\net9.0\NestLoop.csproj.CoreCompileInputs.cache
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\NestLoop\obj\Debug\net9.0\NestLoop.dll
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\NestLoop\obj\Debug\net9.0\refint\NestLoop.dll
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\NestLoop\obj\Debug\net9.0\NestLoop.pdb
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\NestLoop\obj\Debug\net9.0\NestLoop.genruntimeconfig.cache
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\NestLoop\obj\Debug\net9.0\ref\NestLoop.dll

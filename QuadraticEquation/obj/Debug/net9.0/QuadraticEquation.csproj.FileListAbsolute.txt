@@ -1,0 +1,14 @@
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\QuadraticEquation\bin\Debug\net9.0\QuadraticEquation.exe
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\QuadraticEquation\bin\Debug\net9.0\QuadraticEquation.deps.json
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\QuadraticEquation\bin\Debug\net9.0\QuadraticEquation.runtimeconfig.json
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\QuadraticEquation\bin\Debug\net9.0\QuadraticEquation.dll
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\QuadraticEquation\bin\Debug\net9.0\QuadraticEquation.pdb
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\QuadraticEquation\obj\Debug\net9.0\QuadraticEquation.GeneratedMSBuildEditorConfig.editorconfig
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\QuadraticEquation\obj\Debug\net9.0\QuadraticEquation.AssemblyInfoInputs.cache
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\QuadraticEquation\obj\Debug\net9.0\QuadraticEquation.AssemblyInfo.cs
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\QuadraticEquation\obj\Debug\net9.0\QuadraticEquation.csproj.CoreCompileInputs.cache
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\QuadraticEquation\obj\Debug\net9.0\QuadraticEquation.dll
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\QuadraticEquation\obj\Debug\net9.0\refint\QuadraticEquation.dll
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\QuadraticEquation\obj\Debug\net9.0\QuadraticEquation.pdb
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\QuadraticEquation\obj\Debug\net9.0\QuadraticEquation.genruntimeconfig.cache
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\QuadraticEquation\obj\Debug\net9.0\ref\QuadraticEquation.dll

@@ -1,0 +1,14 @@
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\FullStructureProject\obj\Debug\net9.0\FullStructureProject.GeneratedMSBuildEditorConfig.editorconfig
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\FullStructureProject\obj\Debug\net9.0\FullStructureProject.AssemblyInfoInputs.cache
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\FullStructureProject\obj\Debug\net9.0\FullStructureProject.AssemblyInfo.cs
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\FullStructureProject\obj\Debug\net9.0\FullStructureProject.csproj.CoreCompileInputs.cache
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\FullStructureProject\bin\Debug\net9.0\FullStructureProject.exe
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\FullStructureProject\bin\Debug\net9.0\FullStructureProject.deps.json
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\FullStructureProject\bin\Debug\net9.0\FullStructureProject.runtimeconfig.json
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\FullStructureProject\bin\Debug\net9.0\FullStructureProject.dll
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\FullStructureProject\bin\Debug\net9.0\FullStructureProject.pdb
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\FullStructureProject\obj\Debug\net9.0\FullStructureProject.dll
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\FullStructureProject\obj\Debug\net9.0\refint\FullStructureProject.dll
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\FullStructureProject\obj\Debug\net9.0\FullStructureProject.pdb
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\FullStructureProject\obj\Debug\net9.0\FullStructureProject.genruntimeconfig.cache
+F:\Onedrive\My File\FPT UNIVERSITY\SUMMER2025\PRN212\Test\PRN212-SE1855\FullStructureProject\obj\Debug\net9.0\ref\FullStructureProject.dll
