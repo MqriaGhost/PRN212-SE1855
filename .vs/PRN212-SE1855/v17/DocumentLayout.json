@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "F:\\GIT-HUB\\PRN212\\PRN212-SE1855\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{48E97154-3A06-45E2-9E55-32C9EEBBBC08}|OOP4_Generic_Collection\\OOP4_Generic_Collection.csproj|f:\\git-hub\\prn212\\prn212-se1855\\oop4_generic_collection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48E97154-3A06-45E2-9E55-32C9EEBBBC08}|OOP4_Generic_Collection\\OOP4_Generic_Collection.csproj|solutionrelative:oop4_generic_collection\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E30F756A-771A-48D3-96BD-C15F7E0ED1CF}|OOP5_Dictionary\\OOP5_Dictionary.csproj|f:\\git-hub\\prn212\\prn212-se1855\\oop5_dictionary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E30F756A-771A-48D3-96BD-C15F7E0ED1CF}|OOP5_Dictionary\\OOP5_Dictionary.csproj|solutionrelative:oop5_dictionary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{812346D9-211D-4389-9C85-DDA4416A1E34}|OOP2_Reuse_As_Library\\OOP2_Reuse_As_Library.csproj|f:\\git-hub\\prn212\\prn212-se1855\\oop2_reuse_as_library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{812346D9-211D-4389-9C85-DDA4416A1E34}|OOP2_Reuse_As_Library\\OOP2_Reuse_As_Library.csproj|solutionrelative:oop2_reuse_as_library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E30F756A-771A-48D3-96BD-C15F7E0ED1CF}|OOP5_Dictionary\\OOP5_Dictionary.csproj|f:\\git-hub\\prn212\\prn212-se1855\\oop5_dictionary\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E30F756A-771A-48D3-96BD-C15F7E0ED1CF}|OOP5_Dictionary\\OOP5_Dictionary.csproj|solutionrelative:oop5_dictionary\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{812346D9-211D-4389-9C85-DDA4416A1E34}|OOP2_Reuse_As_Library\\OOP2_Reuse_As_Library.csproj|f:\\git-hub\\prn212\\prn212-se1855\\oop2_reuse_as_library\\yourutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{812346D9-211D-4389-9C85-DDA4416A1E34}|OOP2_Reuse_As_Library\\OOP2_Reuse_As_Library.csproj|solutionrelative:oop2_reuse_as_library\\yourutils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E30F756A-771A-48D3-96BD-C15F7E0ED1CF}|OOP5_Dictionary\\OOP5_Dictionary.csproj|f:\\git-hub\\prn212\\prn212-se1855\\oop5_dictionary\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E30F756A-771A-48D3-96BD-C15F7E0ED1CF}|OOP5_Dictionary\\OOP5_Dictionary.csproj|solutionrelative:oop5_dictionary\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\PRN212-SE1855\\OOP4_Generic_Collection\\Program.cs",
-              "RelativeDocumentMoniker": "OOP4_Generic_Collection\\Program.cs",
-              "ToolTip": "F:\\GIT-HUB\\PRN212\\PRN212-SE1855\\OOP4_Generic_Collection\\Program.cs",
-              "RelativeToolTip": "OOP4_Generic_Collection\\Program.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAgwGcAAAAtAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Category.cs",
+              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\PRN212-SE1855\\OOP5_Dictionary\\Category.cs",
+              "RelativeDocumentMoniker": "OOP5_Dictionary\\Category.cs",
+              "ToolTip": "F:\\GIT-HUB\\PRN212\\PRN212-SE1855\\OOP5_Dictionary\\Category.cs",
+              "RelativeToolTip": "OOP5_Dictionary\\Category.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAADwvzwAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T04:10:43.891Z",
+              "WhenOpened": "2025-05-30T02:43:49.432Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "YourUtils.cs",
-              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\PRN212-SE1855\\OOP2_Reuse_As_Library\\YourUtils.cs",
-              "RelativeDocumentMoniker": "OOP2_Reuse_As_Library\\YourUtils.cs",
-              "ToolTip": "F:\\GIT-HUB\\PRN212\\PRN212-SE1855\\OOP2_Reuse_As_Library\\YourUtils.cs",
-              "RelativeToolTip": "OOP2_Reuse_As_Library\\YourUtils.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA6AAAAAAAAAA==",
+              "Title": "Product.cs",
+              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\PRN212-SE1855\\OOP5_Dictionary\\Product.cs",
+              "RelativeDocumentMoniker": "OOP5_Dictionary\\Product.cs",
+              "ToolTip": "F:\\GIT-HUB\\PRN212\\PRN212-SE1855\\OOP5_Dictionary\\Product.cs",
+              "RelativeToolTip": "OOP5_Dictionary\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T03:58:20.677Z",
+              "WhenOpened": "2025-05-30T02:41:56.44Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\PRN212-SE1855\\OOP2_Reuse_As_Library\\Program.cs",
-              "RelativeDocumentMoniker": "OOP2_Reuse_As_Library\\Program.cs",
-              "ToolTip": "F:\\GIT-HUB\\PRN212\\PRN212-SE1855\\OOP2_Reuse_As_Library\\Program.cs",
-              "RelativeToolTip": "OOP2_Reuse_As_Library\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\PRN212-SE1855\\OOP5_Dictionary\\Program.cs",
+              "RelativeDocumentMoniker": "OOP5_Dictionary\\Program.cs",
+              "ToolTip": "F:\\GIT-HUB\\PRN212\\PRN212-SE1855\\OOP5_Dictionary\\Program.cs",
+              "RelativeToolTip": "OOP5_Dictionary\\Program.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAywEUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T03:55:25.148Z",
+              "WhenOpened": "2025-05-30T02:41:37.927Z",
               "EditorCaption": ""
             }
           ]
