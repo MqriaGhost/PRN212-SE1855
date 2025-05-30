@@ -22,33 +22,33 @@ FullTimeEmployee em1 = new FullTimeEmployee();
 em1.Id = 1;
 em1.Name = "Hung";
 em1.IdCard = "Card1";
-em1.Birthday = new DateTime(1993, 11, 29);
+em1.Birthday = new DateTime(1993, 12, 09);
 employees.Add(em1);
 
 FullTimeEmployee em2 = new FullTimeEmployee();
 em2.Id = 2;
-em2.Name = "Hung2";
+em2.Name = "Mon";
 em2.IdCard = "Card2";
-em2.Birthday = new DateTime(1994, 11, 29);
+em2.Birthday = new DateTime(2000, 12, 24);
 employees.Add(em2);
 
 FullTimeEmployee em3 = new FullTimeEmployee();
-em3.Id = 1;
-em3.Name = "Hung3";
-em3.IdCard = "Card1";
-em3.Birthday = new DateTime(1993, 11, 29);
+em3.Id = 3;
+em3.Name = "Doraemon";
+em3.IdCard = "Card3";
+em3.Birthday = new DateTime(1999, 05, 29);
 employees.Add(em3);
 
 FullTimeEmployee em4 = new FullTimeEmployee();
-em4.Id = 1;
-em4.Name = "Hung4";
-em4.IdCard = "Card1";
-em4.Birthday = new DateTime(1993, 11, 29);
+em4.Id = 4;
+em4.Name = "Shin-chan";
+em4.IdCard = "Card4";
+em4.Birthday = new DateTime(1998, 11, 29);
 employees.Add(em4);
 
 PartTimeEmployee em5 = new PartTimeEmployee();
 em5.Id = 5;
-em5.Name = "Hung5";
+em5.Name = "Sasageyo";
 em5.IdCard = "Card5";
 em5.WorkingHour = 2;
 em5.Birthday = new DateTime(1993, 11, 29);
@@ -59,7 +59,9 @@ employees.Add(em5);
  * Cách xuất 1:
  */
 Console.WriteLine("----Employee's list--Method 1---");
-employees.ForEach(e => Console.WriteLine(e));
+employees.ForEach(e => { 
+    Console.WriteLine(e); 
+});
 Console.WriteLine("----Employee's list--Method 2---");
 foreach (var employee in employees)
     Console.WriteLine(employee);
@@ -103,4 +105,54 @@ for(int i = 0; i < employees.Count; i++)
 Console.WriteLine("EMPLOYEE LIST AFTER SORT");
 employees.ForEach(e => Console.WriteLine(e));
 
-//hihi
+//Update
+Console.WriteLine("----UPDATE EMPLOYEE----");
+Console.Write("Enter the ID of the employee you want to update: ");
+int id = int.Parse(Console.ReadLine());
+var updateEmployee = employees.FirstOrDefault(e => e.Id == id);
+if(updateEmployee != null)
+{
+    string updateOption="";
+    Console.WriteLine("Select the field you want to update: ");
+    Console.WriteLine("1: Name");
+    Console.WriteLine("2: ID Card");
+    updateOption = Console.ReadLine();
+    switch (updateOption)
+    {
+        case "1":
+            Console.Write("Enter new name: ");
+            updateEmployee.Name = Console.ReadLine();
+            break;
+        case "2":
+            Console.Write("Enter new ID Card: ");
+            updateEmployee.IdCard = Console.ReadLine();
+            break;
+        default:
+            Console.WriteLine("Invalid option!");
+            break;
+    }
+}
+else
+{
+    Console.WriteLine("Employee not found!");
+}
+//Display updated list
+Console.WriteLine("----EMPLOYEE LIST AFTER UPDATE----");
+employees.ForEach(e => Console.WriteLine(e));
+
+//Delete
+Console.WriteLine("----DELETE EMPLOYEE----");
+Console.Write("Enter the ID of the employee you want to delete: ");
+int deleteEmployee = int.Parse(Console.ReadLine());
+var deleteId = employees.FirstOrDefault(e => e.Id == deleteEmployee);
+if(deleteId != null)
+{
+    employees.Remove(deleteId);
+    Console.WriteLine("Employee deleted successfully!");
+}
+else
+{
+    Console.WriteLine("Employee not found!");
+}
+Console.WriteLine("----EMPLOYEE LIST AFTER DELETE----");
+employees.ForEach(e => Console.WriteLine(e));
