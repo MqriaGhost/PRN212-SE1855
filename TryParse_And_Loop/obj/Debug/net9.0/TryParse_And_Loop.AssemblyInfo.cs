@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TryParse_And_Loop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+efdd9d6966c27463fe712542f9da3d2459ee8ec6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+539b53206561bd6ec895fbc864dddad2bf8dcf2a")]
 [assembly: System.Reflection.AssemblyProductAttribute("TryParse_And_Loop")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TryParse_And_Loop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

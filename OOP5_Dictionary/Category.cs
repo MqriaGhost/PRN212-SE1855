@@ -60,5 +60,26 @@ namespace OOP5_Dictionary
                 .OrderBy(item => item.Value.Price)
                 .ToDictionary<int, Product>(); 
         }
+
+        public bool UpdateProduct(Product p)
+        {
+            if (p == null)
+            {
+                return false; //không tìm thấy mã
+            }
+            if(Products.ContainsKey(p.Id) == false)
+            {
+                return false; //không tìm thấy mã
+            }
+            Products[p.Id] = p; //đè dữ liệu lên ô nhớ hiện tại, hoặc là tham chiếu ô nhớ
+            return true; 
+        }
+
+        public bool RemoveProduct(int id)
+        {
+            if (Products.ContainsKey(id) == false) return false;
+            return Products.Remove(id); 
+            //trả về true nếu xóa thành công, false nếu không tìm thấy mã
+        }
     }
 }

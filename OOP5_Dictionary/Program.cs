@@ -68,3 +68,40 @@ foreach (KeyValuePair<int, Product> item in complex_sort)
     Product p = item.Value;
     Console.WriteLine(p);
 }
+
+p1.Name = "Coca Cola";
+p1.Quantity = 30;
+p1.Price = 30;
+c1.UpdateProduct(p1);
+Console.WriteLine("---Product after update---");
+c1.PrintAllProducts();
+
+int id = 3;
+bool ret = c1.RemoveProduct(id);
+if (ret)
+{
+    Console.WriteLine($"Has deleted the product has id {id} succesfully");
+}
+else
+{
+    Console.WriteLine($"Product has id {id} was not found to delete");
+}
+
+Category c2 = new Category();
+c2.Id = 2;
+c2.Name = "Beer";
+c2.AddProduct(new Product() { Id = 6, Name = "Saigon", Quantity = 10, Price = 300 });
+c2.AddProduct(new Product() { Id = 7, Name = "JohnnieWalker", Quantity = 15, Price = 200 });
+c2.AddProduct(new Product() { Id = 8, Name = "Bourbon", Quantity = 7, Price = 400 });
+
+LinkedList<Category> ss = new LinkedList<Category>();
+ss.AddLast(c1);
+ss.AddLast(c2);
+Console.WriteLine("---All information based on category---");
+foreach (Category c in ss)
+{
+    Console.WriteLine($"---{c.Name}---");
+    Console.WriteLine("*******************");
+    c.PrintAllProducts();
+    Console.WriteLine("*******************");
+}
