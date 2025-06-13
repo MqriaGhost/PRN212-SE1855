@@ -51,4 +51,4 @@ var arr7 = from x in arr
 Console.WriteLine("\nSố lẻ là = "+ arr.Where(x => x % 2 != 0).Count());
 int sole = (from x in arr
             where x % 2 != 0
-            select x).Count();
+            select x).Count();                      
