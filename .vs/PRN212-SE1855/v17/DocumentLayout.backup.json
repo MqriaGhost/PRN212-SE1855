@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "F:\\GIT-HUB\\PRN212\\PRN212-SE1855\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FA6B16CE-55E1-45ED-9665-1F1A5B26F691}|DemoLINQ2Object2\\DemoLINQ2Object2.csproj|f:\\git-hub\\prn212\\prn212-se1855\\demolinq2object2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA6B16CE-55E1-45ED-9665-1F1A5B26F691}|DemoLINQ2Object2\\DemoLINQ2Object2.csproj|solutionrelative:demolinq2object2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB71484E-FDD2-4F66-81DB-6B81CCD12A35}|Lucy_SalesManagement\\Lucy_SalesManagement.csproj|f:\\git-hub\\prn212\\prn212-se1855\\lucy_salesmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB71484E-FDD2-4F66-81DB-6B81CCD12A35}|Lucy_SalesManagement\\Lucy_SalesManagement.csproj|solutionrelative:lucy_salesmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA6B16CE-55E1-45ED-9665-1F1A5B26F691}|DemoLINQ2Object2\\DemoLINQ2Object2.csproj|f:\\git-hub\\prn212\\prn212-se1855\\demolinq2object2\\listproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA6B16CE-55E1-45ED-9665-1F1A5B26F691}|DemoLINQ2Object2\\DemoLINQ2Object2.csproj|solutionrelative:demolinq2object2\\listproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB71484E-FDD2-4F66-81DB-6B81CCD12A35}|Lucy_SalesManagement\\Lucy_SalesManagement.csproj|f:\\git-hub\\prn212\\prn212-se1855\\lucy_salesmanagement\\lucy_salesdata.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|",
+      "RelativeMoniker": "D:0:0:{AB71484E-FDD2-4F66-81DB-6B81CCD12A35}|Lucy_SalesManagement\\Lucy_SalesManagement.csproj|solutionrelative:lucy_salesmanagement\\lucy_salesdata.dbml||{B465B5AD-8799-4507-B90A-EE29ACF36AF9}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,27 +23,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ListProduct.cs",
-              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\PRN212-SE1855\\DemoLINQ2Object2\\ListProduct.cs",
-              "RelativeDocumentMoniker": "DemoLINQ2Object2\\ListProduct.cs",
-              "ToolTip": "F:\\GIT-HUB\\PRN212\\PRN212-SE1855\\DemoLINQ2Object2\\ListProduct.cs",
-              "RelativeToolTip": "DemoLINQ2Object2\\ListProduct.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAkwDcAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T03:50:44.887Z",
-              "EditorCaption": ""
+              "Title": "Lucy_SalesData.dbml",
+              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\PRN212-SE1855\\Lucy_SalesManagement\\Lucy_SalesData.dbml",
+              "RelativeDocumentMoniker": "Lucy_SalesManagement\\Lucy_SalesData.dbml",
+              "ToolTip": "F:\\GIT-HUB\\PRN212\\PRN212-SE1855\\Lucy_SalesManagement\\Lucy_SalesData.dbml",
+              "RelativeToolTip": "Lucy_SalesManagement\\Lucy_SalesData.dbml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001722|",
+              "WhenOpened": "2025-06-06T04:27:16.433Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\PRN212-SE1855\\DemoLINQ2Object2\\Program.cs",
-              "RelativeDocumentMoniker": "DemoLINQ2Object2\\Program.cs",
-              "ToolTip": "F:\\GIT-HUB\\PRN212\\PRN212-SE1855\\DemoLINQ2Object2\\Program.cs",
-              "RelativeToolTip": "DemoLINQ2Object2\\Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAywBQAAABCAAAAAAAAAA==",
+              "DocumentMoniker": "F:\\GIT-HUB\\PRN212\\PRN212-SE1855\\Lucy_SalesManagement\\Program.cs",
+              "RelativeDocumentMoniker": "Lucy_SalesManagement\\Program.cs",
+              "ToolTip": "F:\\GIT-HUB\\PRN212\\PRN212-SE1855\\Lucy_SalesManagement\\Program.cs",
+              "RelativeToolTip": "Lucy_SalesManagement\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-03T03:44:38.327Z",
+              "WhenOpened": "2025-06-06T04:12:12.879Z",
               "EditorCaption": ""
             }
           ]

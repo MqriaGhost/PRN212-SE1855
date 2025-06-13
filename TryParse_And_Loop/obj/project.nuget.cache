@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "ZeF58tB05KA=",
+  "dgSpecHash": "qpt8cR2NPGI=",
   "success": true,
   "projectFilePath": "F:\\GIT-HUB\\PRN212\\PRN212-SE1855\\TryParse_And_Loop\\TryParse_And_Loop.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\dangn\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.301\\microsoft.net.sdk.compilers.toolset.9.0.301.nupkg.sha512"
+  ],
   "logs": []
 }
