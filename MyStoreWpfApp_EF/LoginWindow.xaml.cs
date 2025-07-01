@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyStoreWpfApp_EF.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -19,6 +20,7 @@ namespace MyStoreWpfApp_EF
     /// </summary>
     public partial class LoginWindow : Window
     {
+        MyStoreContext context = new MyStoreContext();
         public LoginWindow()
         {
             InitializeComponent();
@@ -34,15 +36,44 @@ namespace MyStoreWpfApp_EF
             btnThoat.Background = brush;
 
             RadialGradientBrush gradientBrush = new RadialGradientBrush();
-            gradientBrush.GradientOrigin = new Point(0.5, 0.5);
-            gradientBrush.GradientStops.Add(new GradientStop(Colors.LightBlue, 0.0));
+            gradientBrush.GradientOrigin = new Point(0.25, 0.75);
+            gradientBrush.GradientStops.Add(new GradientStop(Colors.DarkBlue, 0.0));
             gradientBrush.GradientStops.Add(new GradientStop(Colors.White, 1.0));
             gradientBrush.GradientStops.Add(new GradientStop(Colors.Blue, 0.5));
             btnDangNhap.Background = gradientBrush;
         }
         private void btnDangNhap_Click(object sender, RoutedEventArgs e)
         {
-
+            string email = txtEmail.Text;
+            string pwd = txtPassword.Password;
+            AccountMember am = context.AccountMembers
+                .FirstOrDefault(x => x.EmailAddress==email && x.MemberPassword==pwd);
+            if (am == null)
+            {
+                MessageBox.Show("Đăng nhập fail", "Fail login",
+                    MessageBoxButton.OK, MessageBoxImage.Asterisk);
+                return;
+            }
+            else
+            {
+                if (am.MemberRole == 1)
+                {
+                    MessageBox.Show("Đăng nhập ADMIN thành công", "Successful login",
+                    MessageBoxButton.OK, MessageBoxImage.Information);
+                    return;
+                } else if (am.MemberRole == 2)
+                {
+                    MessageBox.Show("Đăng nhập STAFF thành công", "Successful login",
+                    MessageBoxButton.OK, MessageBoxImage.Information);
+                    return;
+                }
+                else if(am.MemberRole == 3)
+                {
+                    MessageBox.Show("Đăng nhập Vãng lai thành công", "Successful login",
+                    MessageBoxButton.OK, MessageBoxImage.Information);
+                    return;
+                }
+            }            
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
