@@ -47,11 +47,11 @@ namespace MyStoreWpfApp_EF
             string email = txtEmail.Text;
             string pwd = txtPassword.Password;
             AccountMember am = context.AccountMembers
-                .FirstOrDefault(x => x.EmailAddress==email && x.MemberPassword==pwd);
+                .FirstOrDefault(x => x.EmailAddress == email && x.MemberPassword == pwd);
             if (am == null)
             {
                 MessageBox.Show("Đăng nhập fail", "Fail login",
-                    MessageBoxButton.OK, MessageBoxImage.Asterisk);
+                MessageBoxButton.OK, MessageBoxImage.Asterisk);
                 return;
             }
             else
@@ -60,7 +60,11 @@ namespace MyStoreWpfApp_EF
                 {
                     MessageBox.Show("Đăng nhập ADMIN thành công", "Successful login",
                     MessageBoxButton.OK, MessageBoxImage.Information);
-                    return;
+
+                    AdminWindow aw = new AdminWindow();
+                    aw.Show();
+                    this.Close();
+                    
                 } else if (am.MemberRole == 2)
                 {
                     MessageBox.Show("Đăng nhập STAFF thành công", "Successful login",
