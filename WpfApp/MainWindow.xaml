@@ -1,0 +1,14 @@
+﻿<Window x:Class="WpfApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Mở Customer Management" HorizontalAlignment="Left" Margin="105,44,0,0" VerticalAlignment="Top" Height="35" Width="335" FontSize="24" Click="Button_Click"/>
+        <Button Content="Mở Product Management" HorizontalAlignment="Left" Margin="105,114,0,0" VerticalAlignment="Top" FontSize="24" Width="360" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>

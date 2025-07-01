@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OAqw4WnOH00=",
+  "dgSpecHash": "cis2g26Rt8s=",
   "success": true,
   "projectFilePath": "F:\\GIT-HUB\\PRN212\\PRN212-SE1855\\OOP2_Reuse_As_Library\\OOP2_Reuse_As_Library.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\dangn\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.301\\microsoft.net.sdk.compilers.toolset.9.0.301.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

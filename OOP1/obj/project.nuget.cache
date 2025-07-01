@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PFIK2VGv1/Q=",
+  "dgSpecHash": "+/z6yNCk8xA=",
   "success": true,
   "projectFilePath": "F:\\GIT-HUB\\PRN212\\PRN212-SE1855\\OOP1\\OOP1.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\dangn\\.nuget\\packages\\microsoft.net.sdk.compilers.toolset\\9.0.301\\microsoft.net.sdk.compilers.toolset.9.0.301.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
