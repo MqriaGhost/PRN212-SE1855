@@ -1,29 +1,29 @@
-﻿<Window x:Class="MyStoreWpfApp_EF.AdminWindow"
+﻿<Window x:Class="WpfApp_EF.AdminWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:MyStoreWpfApp_EF"
+        xmlns:local="clr-namespace:WpfApp_EF"
         mc:Ignorable="d"
-        Title="AdminWindow" Height="550" Width="800">
+        Title="AdminWindow" Height="584" Width="973">
     <DockPanel>
         <StackPanel DockPanel.Dock="Top" Height="50" Background="#C71717">
             <Label Content="MyStore用管理システム" FontSize="30" HorizontalAlignment="Center" FontFamily="Cascadia Code" FontWeight="Bold"/>
         </StackPanel>
 
         <WrapPanel DockPanel.Dock="Bottom" Height="26" Background="Yellow" RenderTransformOrigin="0.5,0.5">
-            
+
             <Label Content="Designed By Me おはようございます"/>
         </WrapPanel>
 
         <TreeView x:Name="tvCategory" FontSize="20" DockPanel.Dock="Left" Background="Cyan" Width="350" 
-                  SelectedItemChanged="tvCategory_SelectedItemChanged">
+              SelectedItemChanged="tvCategory_SelectedItemChanged">
 
         </TreeView>
 
         <DockPanel Background="Orange">
             <ListView DockPanel.Dock="Top" x:Name="lvProduct" FontSize="20" 
-                      d:ItemsSource="{d:SampleData ItemCount=5}">
+                  d:ItemsSource="{d:SampleData ItemCount=5}" SelectionChanged="lvProduct_SelectionChanged">
                 <ListView.View>
                     <GridView>
                         <GridViewColumn Header="Mã sản phẩm" DisplayMemberBinding="{Binding ProductId}" />
@@ -34,7 +34,7 @@
                 </ListView.View>
 
             </ListView>
-            <Grid Background="Bisque" Height="187" Width="446">
+            <Grid Background="Yellow" Height="245" Width="551">
                 <Label Content="Product Id:" FontSize="20" HorizontalAlignment="Left" Margin="0,13,0,0" VerticalAlignment="Top"/>
                 <TextBox x:Name="txtId" HorizontalAlignment="Left" FontSize="20" Margin="171,17,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
                 <Label Content="Product Name:" FontSize="20" HorizontalAlignment="Left" Margin="0,47,0,0" VerticalAlignment="Top"/>
@@ -44,10 +44,10 @@
                 <TextBox x:Name="txtQuantity" HorizontalAlignment="Left" FontSize="20" Margin="170,84,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
                 <TextBox x:Name="txtPrice" HorizontalAlignment="Left" FontSize="20" Margin="170,121,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
 
-                <Button x:Name="btnClear" Content="Clear" HorizontalAlignment="Left" Margin="111,167,0,0" VerticalAlignment="Top" RenderTransformOrigin="4.227,-1" Click="btnClear_Click"/>
-                <Button x:Name="btnSave" Content="Save" HorizontalAlignment="Left" Margin="170,167,0,0" RenderTransformOrigin="2.098,-0.679" Click="btnSave_Click"/>
-                <Button x:Name="btnUpdate" Content="Update" HorizontalAlignment="Left" Margin="225,167,0,0" Click="btnUpdate_Click"/>
-                <Button x:Name="btnDelete" Content="Delete" HorizontalAlignment="Left" Margin="300,167,0,0" VerticalAlignment="Top"/>
+                <Button x:Name="btnClear" Content="Clear" HorizontalAlignment="Left" Margin="53,167,0,48" RenderTransformOrigin="4.227,-1" Click="btnClear_Click" Width="67"/>
+                <Button x:Name="btnSave" Content="Save" HorizontalAlignment="Left" Margin="146,167,0,0" RenderTransformOrigin="2.098,-0.679" Click="btnSave_Click" Height="30" VerticalAlignment="Top" Width="62"/>
+                <Button x:Name="btnUpdate" Content="Update" HorizontalAlignment="Left" Margin="232,167,0,48" Click="btnUpdate_Click" Width="59"/>
+                <Button x:Name="btnDelete" Content="Delete" HorizontalAlignment="Left" Margin="315,167,0,0" VerticalAlignment="Top" Click="btnDelete_Click" Height="30" Width="66" RenderTransformOrigin="0.555,0.577"/>
 
             </Grid>
         </DockPanel>
